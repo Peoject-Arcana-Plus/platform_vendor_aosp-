@@ -13,8 +13,8 @@
 # limitations under the License.
 
 #Arcana Version
-ARCANA_VERSION = SERVAL
-ARCANA_CODE = 6.2
+ARCANA_VERSION = REBORN
+ARCANA_CODE = 6.3
 
 ifeq ($(WITH_GAPPS),true)
 PACKAGE_BUILD_TYPE ?= PIXEL
@@ -26,7 +26,7 @@ endif
 ifeq ($(ARCANA_OFFICIAL),true)
 ARCANA_BUILD_TYPE ?= OFFICIAL
 else
-ARCANA_BUILD_TYPE ?= COMMUNITY
+ARCANA_BUILD_TYPE ?= UNOFFICIAL
 endif
 
 # AOSP recovery flashing
